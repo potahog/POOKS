@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export const useHover = onHover => {
   if (typeof onHover !== "function") {
     return;
